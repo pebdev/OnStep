@@ -45,6 +45,10 @@
   #define PINMAP_STR "MaxESP v3"
   #include "Pins.MaxESP3.h"
 #endif
+#if PINMAP == ESP32Essential
+  #define PINMAP_STR "ESP32 Essential v1"
+  #include "Pins.ESP32Essential.h"
+#endif
 #if PINMAP == CNC3
   #define PINMAP_STR "CNC v3"
   #include "Pins.CNC3.h"

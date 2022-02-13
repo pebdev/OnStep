@@ -10,7 +10,7 @@
 #define PINMAP_FIRST                 1
 #define Classic                      1 // Original pin-map
 #define ClassicShield                2 // Original pin-map, for Steve's shield where ST4 port is on the Mega2560's "alternate pins"
-#define AltMega2560                  3 // Obsolete
+#define Mega2560Alt                  3 // Obsolete
 #define ClassicInstein               4 // Original pin-map with Instein ST4 port... this is not tested and I have no idea if it's safe to use!
 #define InsteinESP1                  5 // ESP32 Instein PINMAP (latest variant September/2020)
 
@@ -51,6 +51,9 @@
 
 // Arduino CNC Sheild on WeMos D2 R32 (ESP32)
 #define CNC3                        52 // Similar features to MaxESP3
+
+// My Board
+#define ESP32Essential              53
 
 // Khalid and Dave's PCB for STM32 Blue pill
 #define STM32Blue                   60
